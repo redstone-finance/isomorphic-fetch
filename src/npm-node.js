@@ -14,7 +14,7 @@ if (!global.fetch) {
 			url = "https:" + url;
 		}
 		return realFetch.call(this, url, options);
-	};;
+	};
 	global.Response = undici.Response;
 	global.Headers = undici.Headers;
 	global.Request = undici.Request;

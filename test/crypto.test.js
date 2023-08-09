@@ -18,5 +18,5 @@ describe('(node) web crypto', () => {
 
     it('getRandomValues', () => {
         expect(Crypto.getRandomValues(new Uint8Array(5))).toBeDefined();
-    })
+    });
 });
